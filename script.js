@@ -1,12 +1,11 @@
-"use strict";
-
-import KeyCodeList from "./KeyCodes";
+//import KeyCodeList from "./KeyCodes";
 
 let area = document.getElementById("area");
+let keyName;
+let keyCode;
 
 document.getElementById("ButtonInput").addEventListener("keydown", (event) => {
-  let keyName = event.key;
-  let keyCode = event.code;
+  keyName = event.key;
+  keyCode = event.code;
+  console.log(event);
 });
-
-area.value += keyName + "----" + keyCode;
