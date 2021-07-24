@@ -5,6 +5,8 @@ body {
   align-items: center;
 }
 
-.ButtonInput{
-
+#area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
