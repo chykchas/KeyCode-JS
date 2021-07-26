@@ -1,0 +1,12 @@
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
