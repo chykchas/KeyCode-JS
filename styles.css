@@ -1,12 +1,25 @@
-.Input{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
+html {
+    font-family: sans-serif;
+  }
 
-
-.area {
-    display: flex;
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
     justify-content: center;
-    align-items: flex-end;
-}
+    align-items: center;
+  }
+
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  caption {
+    padding: 10px;
+  }
